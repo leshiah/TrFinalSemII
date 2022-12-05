@@ -11,7 +11,7 @@
 }
 
 .encabezado {
-    background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5) 0%, rgba(58, 58, 58, 0.5)), url(img/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5) 0%, rgba(58, 58, 58, 0.5)), url(img/nasa-Q1p7bh3SHj8-unsplash.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     display: flex;
     position: fixed;
     width: 100%;
-    padding: 8px;
+    padding: 10px 8px;
     background-color: rgb(37, 37, 37);
 }
 
@@ -69,10 +69,7 @@
     font-size: 18px;
 }
 #boton-session {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 10px 30px;
     border: none;
     background-color: rgb(60, 60, 255);
     border-radius: 15px;
@@ -91,15 +88,17 @@
 }
 .presentacion {
     margin-top: 65px;
-    padding-top: 310px;
-    padding-bottom: 380px;
+    padding: 200px 0;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 75%;
+    max-width: 1600px;
+    margin: auto;
 }
 #introduciendo {
     font-family: 'Alexandria', sans-serif;
+    color: white;
 }
 #titulo {
     font-family: 'Comfortaa', cursive;
@@ -108,30 +107,125 @@
     text-shadow: 20px;
 }
 
+.definicion {
+    background-color: rgb(177, 177, 177);
+}
+.definicion-contenido {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.definicion-contenido p {
+    padding: 30px 0;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    font-family: 'calibri';
+}
+
+.definicion-contenido img {
+    width: 100%;
+    max-width: 306px;
+}
+
 
 .descripcion {
-    max-width: 800px;
+    padding: 50px 10px;
+    background-image: linear-gradient(to top, rgba(35, 35, 35, 0.5) 0%, rgba(58, 58, 58, 0.5)), url(img/compare-fibre-INNsF0Zz_kQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(218, 218, 218);
+}
+
+.subtitulo-contenedor {
+    max-width: 500px;
     margin: auto;
-    padding: 40px;
+}
+.subtitulo {
+    padding: 30px 0;
     text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
 }
-.descripcion h1 {
-    font-family: 'Alexandria', sans-serif;
-    width: 75%;
-    margin: auto;
-}
-.descripcion-contenido {
+.descricion-lista {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-.descripcion-contenido img {
+    padding: 20px 0;
+    max-width: 1400px;
     margin: auto;
-    max-width: 300px;
-    width: 75%;
-    height: auto;
 }
-.descripcion-contenido p {
-    width: 75%;
-    font-family: 'roboto';
+.descripcion-box {
+    width: 300px;
+    padding: 50px 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.descripcion-box img {
+    width: 70px;
+    height: auto;
+    filter: invert(100%);
+}
+
+.descripcion-box h2 {
+    padding: 10px 0;
+    font-family: "Inter Tight", sans-serif;
+}
+.descripcion-box p {
+    padding: 10px 0;
+    font-family: 'calibri';
+    font-size: 20px;
+}
+
+.ver-planes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.nota {
+    padding: 20px 0;
+    text-align: center;
+}
+.nota-texto {
+    font-family: 'calibri';
+    color: rgb(121, 121, 121);
+}
+
+
+.contacto {
+    background-color: rgb(29, 29, 29);
+}
+.contacto-contenido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 70px 0;
+    align-items: center;
+}
+
+.contact-us {
+    font-family: 'calibri';
+    color: rgb(224, 224, 224);
+}
+
+.redes-sociales-contenido {
+    list-style: none;
+    padding: 10px;
+}
+
+.redes-sociales-contenido img {
+    width: 35px;
+    filter: invert(100%);
 }
