@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Prueba</title>
+    <script src="script.js"></script>
+    <title>CatTeam</title>
 </head>
 <body>
     <div class="nav">
         <div class="nav-bar">
             <div class="logo">
-                <img src="img/logo 50x50.png" alt="" id="img-logo">
+                <img src="img/logo 50x50.png" id="logo__img">
             </div>
             <nav class="nav-contenido">
                 <ul class="menu">
@@ -19,9 +20,9 @@
                         <a href="#" id="github">Github</a>
                     </li>
                     <li class="menu-items">
-                        <button id="boton-session">
-                            <a href="#" id="session">Planes</a>
-                        </button>
+                        <div class="boton__session">
+                            <p class="session">Planes</p>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -51,9 +52,9 @@
                 <img src="decoracion/World wide web_Two Color.svg" alt="">
             </div>
             <div class="ver-planes">
-                <button id="boton-session">
-                    <a href="#" id="session">Ver planes</a>
-                </button>
+                <div class="boton__session">
+                    <p class="session">Ver planes</p>
+                </div>
             </div>
         </section>
         <section class="descripcion">
@@ -92,11 +93,27 @@
         </div>
 
         <div class="ver-planes">
-            <button id="boton-session">
-                <a href="#" id="session">Ver planes</a>
-            </button>
+            <div class="boton__session">
+                <p class="session">Ver planes</p>
+            </div>
         </div>     
     </main>
+
+
+    <section class="lista-light">
+        <div class="contenido-light">
+            <img src="iconos/close.svg" alt="" class="close">
+            <div class="ubicacion-contenedor">
+                <h1>Seleccionar ubicación</h1>
+                <ul class="ubicacion-lista">
+                    <li><a href="#">Lima Centro</a></li>
+                    <li><a href="#">Lima Norte</a></li>
+                    <li><a href="#">Lima Sur</a></li>
+                    <li><a href="#">Lima Este</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <footer class="contacto">
         <div class="contacto-contenido">
